@@ -4,7 +4,7 @@ Building a Data-collection kind of interactive webpage to organize meet-ups with
 References will be included in this file.
 
 Task 1: Prepare rough sketch of layout plan
-Task 2: Do backbone code for page
+Task 2: Do skeleton code for page
 Task 3: Research and use necessary elements required - would like to do a dropdown box for "Proposed Activity"
 Task 4: Create an interactive calender to select dates
 Task 5: Styling to be done at the end when code works
