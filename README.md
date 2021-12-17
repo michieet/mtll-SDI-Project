@@ -1,6 +1,6 @@
 # mtll-SDI-Project
 
-Building a Data-collection kind of interactive webpage.
+Building a Data-collection kind of interactive webpage to organize meet-ups with friends.
 References will be included in this file.
 
 Task 1: Prepare rough sketch of layout plan
