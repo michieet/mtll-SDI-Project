@@ -10,5 +10,18 @@ Task 4: Create an interactive calender to select dates
 Task 5: Styling to be done at the end when code works
 
 References:
-JS Dropdown box: https://www.w3schools.com/howto/howto_js_dropdown.asp
-JS Adding Calender: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
+Forms: https://www.youtube.com/watch?v=fNcJuPIZ2WE&ab_channel=WebDevSimplified
+
+Previous Lessons
+
+JS Dropdown box: 
+https://www.w3schools.com/howto/howto_js_dropdown.asp
+https://www.w3schools.com/js/tryit.asp?filename=try_dom_select_options
+
+JS Adding Calender:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
+
+Submitting Forms:
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_submit
