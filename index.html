@@ -6,25 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GO OR NO GO?</title>
     <script defer src="index.js"></script>
-    <link rel=“stylesheet” href=“index.css”>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div id="div1">
+    <div>
         <h1>GO OR NO GO?</h1>
     </div>
 
-    <form action="data.html" method="GET" class="form"> 
-        <div id="leftcolumn">
-            <div id="div2">               
+    <form action="data.html" method="GET" class="form">
+        <div id="parentdiv">
+            <div id="div1">               
                 <label for="name">Name:</label><br>
-                <input type="text" id="name" placeholder="Full name" name="name"/>
-                <br><br>                
-            </div>
-            
-            <div id="div3">           
+                <input type="text" id="name" placeholder="Full name" name="Name"/>
+                <br><br>                                      
                 <label>Proposed Activity:</label><br>
-                <select id="dropbutton" name="select" required>
+                <select id="dropbutton" name="Activity" required>
                     <option value="" disabled selected hidden>Please Select</option>
                     <option>Barbeque</option>
                     <option>Picnic</option>
@@ -33,30 +30,26 @@
                 </select>               
                 <br><br>
             </div>
-        </div>
 
-        <div id="rightcolumn">
-            <div id="div4">
+            <div id="div2"> 
                 <label for="date">Select Date:</label><br>
-                <input type="date" id="date" name="date" required>
+                <input type="date" id="date" name="Date" required>
                 <br><br>
-            </div>
-
-            <div>
-                <label>Preffered Timeslot:</label><br>
-                <select id="preferredtime" name="timeslot" required>
+                <label>Preferred Timeslot:</label><br>
+                <select id="preferredtime" name="Timeslot" required>
+                    <option value="" disabled selected hidden>Please Select</option>
                     <option>11AM - 1PM</option>
                     <option>2PM - 5PM</option>
                     <option>5PM - 7PM</option>
                 </select>
                 <br><br>
             </div>
-
-            <div>
-                <button>Submit</button>
-            </div>
         </div>
+            <div id="div3">
+                <button>Submit</button>
+            </div><br>
     </form>
+    <div id="appendedData">Your submission:</div>
 
 </body>
 </html>

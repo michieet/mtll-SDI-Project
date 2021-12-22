@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+}
+body{
+    background-color: rgb(235, 191, 198);
+    color: rgb(44, 16, 16);
+    border: 2px solid rgb(58, 21, 21);
+    border-radius: 25px;
+    padding: 20px;
+    display: block;
+    margin-top: 20%;
+}
+a{
+    display: grid;
+    text-align: center;
+    padding: 20px;
+}
+#data{
+    display: inline-block;
+    text-align: justify;    
+}
