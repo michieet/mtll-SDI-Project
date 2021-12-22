@@ -9,6 +9,9 @@ Task 3: Research and use necessary elements required - would like to do a dropdo
 Task 4: Create an interactive calender to select dates
 Task 5: Styling to be done at the end when code works
 
+Challenge 1: Do up a nice "Thank you for your response" webpage
+Challenge 2: Make data appear on page when click "Return to Form"
+
 References:
 Forms: https://www.youtube.com/watch?v=fNcJuPIZ2WE&ab_channel=WebDevSimplified
 

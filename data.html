@@ -5,17 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Compilation</title>
+    <script defer src="data.js"></script>
 </head>
 <body>
     <div id="data">
         <a href="/">Return to Form</a>
-            <script>
-                const dataList = document.getElementById("data")
-                new URLSearchParams(window.location.search).forEach((value, name)=> {
-                    dataList.append(`${name}: ${value}`)
-                    dataList.append(document.createElement("br"))
-                })
-            </script>
     </div>
 </body>
 </html>

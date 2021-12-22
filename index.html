@@ -6,23 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GO OR NO GO?</title>
     <script defer src="index.js"></script>
-    <style>
-        *{
-            text-align: center;
-        }
-        body{
-            background-color: rgb(235, 191, 198);
-            color: rgb(44, 16, 16);
-            border: 2px solid rgb(58, 21, 21);
-            border-radius: 25px;
-            padding: 20px;
-        }
-        h1{
-            border-radius: 25px;
-            border: 2px solid rgb(58, 21, 21);
-            padding: 20px;
-        }
-    </style>
+    <link rel=“stylesheet” href=“index.css”>
 </head>
 
 <body>
@@ -34,13 +18,14 @@
         <div id="leftcolumn">
             <div id="div2">               
                 <label for="name">Name:</label><br>
-                <input type="text" id="name" placeholder="Full name" name="name" required/>
+                <input type="text" id="name" placeholder="Full name" name="name"/>
                 <br><br>                
             </div>
             
             <div id="div3">           
                 <label>Proposed Activity:</label><br>
-                <select id="dropbutton" name="activityChoice" required>
+                <select id="dropbutton" name="select" required>
+                    <option value="" disabled selected hidden>Please Select</option>
                     <option>Barbeque</option>
                     <option>Picnic</option>
                     <option>Restaurant</option>
@@ -52,8 +37,8 @@
 
         <div id="rightcolumn">
             <div id="div4">
-                <label for="Calender" required>Select Date:</label><br>
-                <input type="date" id="date" name="Calender" value ="" min="2021-12-01" max="2021-12-31" required>
+                <label for="date">Select Date:</label><br>
+                <input type="date" id="date" name="date" required>
                 <br><br>
             </div>
 
